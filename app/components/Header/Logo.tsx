@@ -5,7 +5,7 @@ function Logo() {
   return (
     <div className="hidden sm:block">
       <Link
-        href={"/"}
+        href="/"
         className="flex gap-3 items-center justify-between leading-6 w-max"
       >
         <Image width={80} height={80} src="/robot.png" alt="Logo" />

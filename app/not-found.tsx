@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 function NotFound() {
   return (
     <div className="grow bg-[url('/not-found.jpg')] bg-center bg-cover">
@@ -5,6 +8,9 @@ function NotFound() {
         <h1 className="text-4xl font-semibold">
           Запрашиваемая страница в разработке либо не существует
         </h1>
+        <Link href="/">
+          <Button size="lg">На главную</Button>
+        </Link>
       </div>
     </div>
   );
