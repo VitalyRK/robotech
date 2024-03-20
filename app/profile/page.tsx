@@ -5,7 +5,7 @@ async function Profile() {
   const user = await getUser();
 
   return (
-    <div className="flex flex-col text-3xl font-semibold h-full flex items-center justify-center">
+    <div className="flex flex-col text-3xl font-semibold h-full items-center justify-center">
       <span>{user?.given_name}</span>
       <span>{user?.family_name}</span>
       <span>{user?.email}</span>
