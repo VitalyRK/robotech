@@ -8,9 +8,9 @@ function NotFound() {
         <h1 className="text-4xl font-semibold">
           Запрашиваемая страница в разработке либо не существует
         </h1>
-        <Link href="/">
-          <Button size="lg">На главную</Button>
-        </Link>
+        <Button size="lg">
+          <Link href="/">На главную</Link>
+        </Button>
       </div>
     </div>
   );

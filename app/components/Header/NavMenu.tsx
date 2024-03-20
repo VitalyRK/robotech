@@ -37,7 +37,7 @@ export function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref={true}>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Главная
             </NavigationMenuLink>
